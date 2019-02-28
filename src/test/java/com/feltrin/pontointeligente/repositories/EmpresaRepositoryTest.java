@@ -1,4 +1,4 @@
-package com.feltrin.pontointeligente.repository;
+package com.feltrin.pontointeligente.repositories;
 
 import static org.junit.Assert.assertEquals;
 
@@ -12,6 +12,7 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.feltrin.pontointeligente.entities.Empresa;
+import com.feltrin.pontointeligente.repositories.EmpresaRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -1,4 +1,4 @@
-package com.feltrin.pontointeligente.repository;
+package com.feltrin.pontointeligente.repositories;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.feltrin.pontointeligente.repository;
+package com.feltrin.pontointeligente.repositories;
 
 import static org.junit.Assert.assertEquals;
 
@@ -22,6 +22,9 @@ import com.feltrin.pontointeligente.entities.Funcionario;
 import com.feltrin.pontointeligente.entities.Lancamento;
 import com.feltrin.pontointeligente.enums.PerfilEnum;
 import com.feltrin.pontointeligente.enums.TipoEnum;
+import com.feltrin.pontointeligente.repositories.EmpresaRepository;
+import com.feltrin.pontointeligente.repositories.FuncionarioRepository;
+import com.feltrin.pontointeligente.repositories.LancamentoRepository;
 import com.feltrin.pontointeligente.utils.PasswordUtils;
 
 @RunWith(SpringRunner.class)
